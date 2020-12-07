@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * 自定义网关的filter
+ *
  * @author lihuaiqiang
  * @description
  * @date 2020/12/6 17:02
@@ -16,6 +18,7 @@ public class GatewayConfig {
     /**
      * 配置了一个ID为“path_route_atguigu”的路由规则。
      * 当访问地址 http://localhost:9527/guonei 时会自动转发到地址：http://baidu.com/guonei
+     *
      * @param builder
      * @return
      */
