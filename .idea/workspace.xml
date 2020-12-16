@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23a6cdd8-c99d-4872-9f26-45764b646edd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/com/atguigu/springcloud/alibaba/controller/ConfigClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/com/atguigu/springcloud/alibaba/controller/ConfigClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/cloud-consumer-feign-order80/target/" />
     <ignored path="$PROJECT_DIR$/cloud-gateway-gateway9527/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +41,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="122">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="285">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/MainApp8401.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="304">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -85,7 +161,6 @@
       <find>&lt;parent&gt;</find>
       <find>tomcat</find>
       <find>spring-boot-starter-parent</find>
-      <find>openfeign</find>
       <find>restTemplate</find>
       <find>fastjson</find>
       <find>RestTemplate</find>
@@ -96,6 +171,8 @@
       <find>FeignClient</find>
       <find>@EnableDiscoveryClient</find>
       <find>@EnableEurekaClient</find>
+      <find>openfeign</find>
+      <find>management</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,11 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/PaymentMain9002.java" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu/springcloud/OrderNacosMain83.java" />
@@ -155,6 +227,11 @@
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/MainApp8401.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" />
       </list>
     </option>
   </component>
@@ -202,10 +279,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="875" />
-    <option name="y" value="200" />
+    <option name="x" value="723" />
+    <option name="y" value="108" />
     <option name="width" value="1470" />
-    <option name="height" value="565" />
+    <option name="height" value="432" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -222,70 +299,25 @@
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-config-nacos-client3377" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -293,7 +325,7 @@
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -302,7 +334,7 @@
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -312,55 +344,10 @@
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,7 +367,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="I:/sunbox/code_dev/sfhw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -420,7 +407,7 @@
     </option>
     <option name="contentProportion" value="0.16734973" />
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentHystrixMain8001">
+  <component name="RunManager" selected="Spring Boot.MainApp8401">
     <configuration name="TestBeforeRoutePredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.springcloud.TestBeforeRoutePredicate" />
       <module name="cloud-gateway-gateway9527" />
@@ -463,15 +450,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosConfigClentMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloudalibaba-config-nacos-client3377" />
+    <configuration name="MainApp8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.NacosConfigClentMain3377" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.MainApp8401" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -479,6 +466,13 @@
     <configuration name="OrderConsulMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerconsul-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderConsulMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderFeignMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderFeignMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -579,17 +573,18 @@
       <item itemvalue="Spring Boot.OrderNacosMain83" />
       <item itemvalue="Spring Boot.OrderMain80" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
-      <item itemvalue="Spring Boot.NacosConfigClentMain3377" />
       <item itemvalue="Spring Boot.GateWayMain9527" />
       <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+      <item itemvalue="Spring Boot.OrderFeignMain80" />
+      <item itemvalue="Spring Boot.MainApp8401" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MainApp8401" />
         <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
         <item itemvalue="Spring Boot.GateWayMain9527" />
         <item itemvalue="Application.TestBeforeRoutePredicate" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
-        <item itemvalue="Spring Boot.NacosConfigClentMain3377" />
       </list>
     </recent_temporary>
   </component>
@@ -693,7 +688,7 @@
       <workItem from="1607748188277" duration="1514000" />
       <workItem from="1607908999858" duration="3948000" />
       <workItem from="1607997228972" duration="2338000" />
-      <workItem from="1608079942395" duration="2046000" />
+      <workItem from="1608079942395" duration="7361000" />
     </task>
     <task id="LOCAL-00001" summary="针对注解 @RefreshScope 添加注释">
       <created>1608089448000</created>
@@ -706,13 +701,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315913000" />
+    <option name="totallyTimeSpent" value="321228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="798" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.2613941" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.2613941" />
       <window_info id="Structure" order="1" sideWeight="0.5015015" side_tool="true" weight="0.24329759" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -726,7 +721,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42128935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49932975" weight="0.26426426" />
+      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49932975" weight="0.6066066" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298351" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -751,7 +746,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.2613941" />
       <window_info id="Structure" order="1" sideWeight="0.5015015" side_tool="true" weight="0.24329759" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -765,7 +760,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42128935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49932975" weight="0.4114114" />
+      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49932975" weight="0.26426426" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298351" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -816,83 +811,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/NacosConfigClentMain3377.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-api-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/OrderFeignMain80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderFeignController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -912,13 +830,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="46" selection-start-line="71" selection-start-column="40" selection-end-line="72" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1216,20 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/controller/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1244,6 +1141,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="72" column="40" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/MainApp8401.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,12 +1299,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-gateway-gateway9527</last-edited>
+          <last-edited>Spring|cloudalibaba-sentinel-service8401</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.31399632" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
