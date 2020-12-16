@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author lihuaiqiang
  * @description
  * @date 2020/10/17 11:07
- * @RefreshScope 支持Nacos的动态刷新功能
+ * <p>
+ * 注解 @RefreshScope 作用：支持Nacos的动态刷新功能
  */
 @RestController
 @Slf4j
