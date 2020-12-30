@@ -33,6 +33,10 @@ public class FlowLimitController {
         return "--testB";
     }
 
+    /**
+     * 测试降级规则：慢调用比例，RT
+     * @return
+     */
     @GetMapping("/testD")
     public String testD() {
         try {
@@ -43,5 +47,27 @@ public class FlowLimitController {
         }
         log.info(" testD 测试 RT");
         return "------TestD";
+    }
+
+    /**
+     * 测试降级规则：异常比例
+     * @return
+     */
+    @GetMapping("/testE")
+    public String testE(){
+        int i = 10/0;
+        log.info("测试异常比例");
+        return "-----TestE";
+    }
+
+    /**
+     * 测试降级规则：异常数
+     * @return
+     */
+    @GetMapping("/testF")
+    public String testF(){
+        int i = 10/0;
+        log.info("测试异常数");
+        return "-----TestF";
     }
 }
