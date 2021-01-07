@@ -1,7 +1,7 @@
 package com.atguigu.springcloud.alibaba.handler;
 
-        import com.alibaba.csp.sentinel.slots.block.BlockException;
-        import com.atguigu.springcloud.entities.CommonResult;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.atguigu.springcloud.entities.CommonResult;
 
 /**
  * @author lihuaiqiang
@@ -10,11 +10,11 @@ package com.atguigu.springcloud.alibaba.handler;
  */
 public class CustomerBlockHandler {
 
-    public static CommonResult handleException(BlockException exception){
+    public static CommonResult handleException(BlockException exception) {
         return new CommonResult(4444, "按客户自定义的，global handlerException ---- 1");
     }
 
-    public static CommonResult handleException2(BlockException exception){
+    public static CommonResult handleException2(BlockException exception) {
         return new CommonResult(4444, "按客户自定义的，global handlerException ---- 2");
     }
 }
