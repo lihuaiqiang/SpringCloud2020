@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
 
 /**
  * @author lihuaiqiang
@@ -37,7 +39,12 @@ public class PaymentController {
     }
 
     @GetMapping("/payment/get/{id}")
-    public CommonResult getPaymentById(@PathVariable("id") Long id){
+    public CommonResult getPaymentById(@PathVariable("id") Long id, HttpServletRequest request){
+        Enumeration<String> headerNames = request.getHeaderNames();
+        System.out.println("kkk===" + headerNames);
+        String platform = request.getHeader("platform");
+        System.out.println(platform);
+
         Payment payment = paymentService.getPaymentById(id);
         log.info("8002提供服务");
 

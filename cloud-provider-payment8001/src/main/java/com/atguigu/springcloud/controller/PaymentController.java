@@ -10,6 +10,8 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -43,7 +45,12 @@ public class PaymentController {
     }
 
     @GetMapping("/payment/get/{id}")
-    public CommonResult getPaymentById(@PathVariable("id") Long id){
+    public CommonResult getPaymentById(@PathVariable("id") Long id, HttpServletRequest request){
+        Enumeration<String> headerNames = request.getHeaderNames();
+        System.out.println("kkk===" + headerNames);
+        String platform = request.getHeader("platform");
+        System.out.println(platform);
+
         Payment payment = paymentService.getPaymentById(id);
         log.info("8001提供服务");
 
