@@ -22,7 +22,7 @@ spring:
 #            - Method=GET
 #            - Query=username,\d+ #要含有参数username，并且参数的值整数，才能匹配路由
           filters:
-            - AddRequestParameter=X-Request-Id,1024 #过滤器工厂会在匹配的请求头加上一对请求头，名称X-Request-Id,zhiwei 1024
+            - AddRequestParameter=X-Request-Id,1024 #过滤器工厂会在匹配的请求头加上一对请求头，名称X-Request-Id,值为1024
 eureka:
   instance:
     hostname: cloud-gateway-service
